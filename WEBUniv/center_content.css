@@ -1,0 +1,36 @@
+/* ******** MAIN CONTENT ******** */
+
+.main_content {
+    display: flex;
+    flex-direction: row;
+    /* resizing the browser window */
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1em;
+    background-color:rgb(81, 59, 152);
+    border-style: solid;
+    border-width: 1;
+    resize: both;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.main_content > div {
+    background-color: #e49d5a;
+    margin: 10px;
+    padding: 20px;
+    /* font-size: 40px; */
+
+}
+
+.main_content_item {
+    font-size: 30px;
+    min-width: 60px;
+    min-height: 120px;
+    max-width: 240px;
+    max-height: 480px;
+    /* width: auto;
+    height: auto; */
+}

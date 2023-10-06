@@ -1,0 +1,31 @@
+.component_header {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    background-color:DodgerBlue;
+    border-style: solid;
+    border-width: 1;
+    resize: both;
+    overflow: auto;
+    width: 100%;
+}
+
+.component_header > div {
+    background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
+}
+
+.component_header_logo {
+    border-style: solid;
+    border-width: 1;
+    width: 60px;
+}
+.search_field {
+    align-self: center;
+    border-style: solid;
+    border-width: 1;
+}
+
+

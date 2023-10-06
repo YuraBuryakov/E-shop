@@ -1,0 +1,40 @@
+.center_content {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(128, 142, 155);
+    border-style: solid;
+    border-width: 1;
+    resize: both;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.center_content > div {
+    margin: 10px;
+}
+
+/* ******** LEFT BAR ******** */
+
+.left_bar {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(138, 186, 235);
+    border-style: solid;
+    border-width: 1;
+    resize: both;
+    overflow: auto;
+    height: 100%;
+    width: 300px;
+}
+
+.left_bar > div {
+    background-color: #d28080;
+    margin: 2%;
+    padding: 10px;
+    font-size: 10px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+}
+
