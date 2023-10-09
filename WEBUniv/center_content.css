@@ -7,8 +7,7 @@
     flex-flow: row wrap;
     align-items: center;
     gap: 1em;
-    background-color:rgb(81, 59, 152);
-    border-style: solid;
+    background-color:rgb(255, 255, 255);
     border-width: 1;
     resize: both;
     overflow: auto;
@@ -17,20 +16,101 @@
     
 }
 
-.main_content > div {
-    background-color: #e49d5a;
-    margin: 10px;
-    padding: 20px;
-    /* font-size: 40px; */
+.main_content_item {
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.main_content_item:hover{
+    box-shadow: 4px 8px 16px rgba(1, 63, 114, 0.1);
+}
+
+.main_content_item_top {
+    flex: 0 0 220px;
+    position: relative;
+    overflow: hidden;
 
 }
 
-.main_content_item {
-    font-size: 30px;
-    min-width: 60px;
-    min-height: 120px;
-    max-width: 240px;
-    max-height: 480px;
-    /* width: auto;
-    height: auto; */
+.main_content_item_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.main_content_item_img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.2s;
+}
+
+.main_content_item_img:hover {
+    transform: scale(1.01);
+}
+
+.main_content_item_label {
+    position: absolute;
+    bottom: 8px;
+    left: 4px;
+    padding: 4px 8px;
+    background-color: rgb(255, 138, 36);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.main_content_item_bottom {
+    flex: 0 0 auto;
+}
+
+.main_content_item_price {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.main_content_item_title {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: black;
+}
+
+.main_content_item_title:hover {
+    color: #3a7999;
+}
+
+.main_content_item_button {
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    width: 80%;
+    font-weight: 400;
+    font-size: 17px;
+    color: #3a7999;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #3a7999;
+    border-radius: 4px;
+}
+
+.main_content_item_button:hover {
+    background-color: #3a7999;
+    color: rgb(255, 255, 255);
 }
