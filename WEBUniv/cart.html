@@ -1,83 +1,118 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="cart.css">
+        <!-- <link rel="stylesheet" href="center_content.css"> -->
+        <link rel="stylesheet" href="footer.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-shop</title>
     </head>
-    <body>
+    <body style="font-family:Arial, Verdana, sans-serif">
         <div class="component_header">
             <div class="component_header_logo">
                 <a href="index.html">
-                    <img src="./Images/logo.jpg" alt="logo" width="100">
+                    <img src="./Images/logo.jpg" class="component_header_logo_img" alt="logo" width="100px" height="20">
+
                 </a>
-                
             </div>
             <div class="search_field">
                 <input type="search">
                 <button>Search</button>
             </div>
-            <div class="cart_right_icon">
+            <!-- <div class="cart_right_icon">
                 <a href="cart.html", class="cart_right_icon_img">
                     <img 
                     src="./Images/vector-shopping-cart-icon.jpg"
                     alt="Přejít do košíku"
                     width="50"> 
                 </a>
+            </div> -->
+        </div>
+        <div class="center_content">
+
+            <div class="main_content_cart">
+                <div class="main_content_item_cart">
+                    <div class="main_content_item_top_cart"> 
+                        <a href="#", class="main_content_item_img">
+                            <img 
+                            src="./Images/img1.png"
+                            alt="img1"
+                            width="200px"> 
+                        </a>
+                    </div>
+                    <div class="main_content_item_bottom">
+                        <a href="#" class="main_content_item_title">Iphone 15 Pro Max 256Gb, gray</a>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Fusce nibh. Pellentesque pretium lectus id turpis. Aliquam ante. Maecenas sollicitudin. Aliquam erat volutpat.</p>
+                    </div>
+                    <div class="qunatity_and_price_cart">
+                        <div class="main_content_item_button_add_remove">
+                            <button class="main_content_item_button_remove">-</button>
+                            <p>1</p>
+                            <button class="main_content_item_button_add">+</button>
+                        </div>
+                        <div class="main_content_item_price">90 000</div>
+                    </div>
+                </div>
+                <div class="main_content_item_cart">
+                    <div class="main_content_item_top_cart"> 
+                        <a href="#", class="main_content_item_img">
+                            <img 
+                            src="./Images/img1.png"
+                            alt="img1"
+                            width="100px"> 
+                        </a>
+                    </div>
+                    <div class="main_content_item_bottom">
+                        <a href="#" class="main_content_item_title">Iphone 15 Pro Max 256Gb, gray</a>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Fusce nibh. Pellentesque pretium lectus id turpis. Aliquam ante. Maecenas sollicitudin. Aliquam erat volutpat.</p>
+                    </div>
+                    <div class="qunatity_and_price_cart">
+                        <div class="main_content_item_button_add_remove">
+                            <div>
+                                <button class="main_content_item_button_remove">-</button>
+                            </div>
+                            <div>
+                                <p>1</p>
+                            </div>
+                            <div>
+                               <button class="main_content_item_button_add">+</button> 
+                            </div>
+                        </div>
+                        <div class="main_content_item_price">90 000</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_content_cart_final_price_pay">
+                <div>
+                    <button>
+                        Pay
+                    </button>
+                </div>
+
+                <div>
+                    <p class="main_content_cart_final_price">
+                        Final price: 180 000 Kc
+                    </p>
+                </div>
             </div>
         </div>
-
-        <div class="cart_center_content">
-
-            <div class="main_content_item">
-
-                <div class="main_content_item_top"> 
-                    <a href="#", class="main_content_item_img">
-                        <img 
-                        src="./Images/img1.png"
-                        alt="img1"
-                        width="100px"> 
-                    </a>
-                </div>
-
-                <div class="main_content_item_bottom">
-                    <a href="#" class="main_content_item_title">Iphone 15 Pro Max 256Gb, gray</a>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Fusce nibh. Pellentesque pretium lectus id turpis. Aliquam ante. Maecenas sollicitudin. Aliquam erat volutpat.</p>
-                </div>
-
-                <div class="main_content_item_button_add_remove">
-                    <button class="main_content_item_button_remove">-</button>
-                    <p>1</p>
-                    <button class="main_content_item_button_add">+</button>
-                </div>
-                
-                <div class="main_content_item_price">90 000</div>
+        <footer class="footer">
+            <div>
+                about us
             </div>
-
-
-            <div class="main_content_item">
-
-                <div class="main_content_item_top"> 
-                    <a href="#", class="main_content_item_img">
-                        <img 
-                        src="./Images/img1.png"
-                        alt="img1"
-                        width="100px"> 
-                    </a>
-                </div>
-
-                <div class="main_content_item_bottom">
-                    <a href="#" class="main_content_item_title">Iphone 15 Pro Max 256Gb, gray</a>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Fusce nibh. Pellentesque pretium lectus id turpis. Aliquam ante. Maecenas sollicitudin. Aliquam erat volutpat.</p>
-                </div>
-
-                <div class="main_content_item_button_add_remove">
-                    <button class="main_content_item_button_remove">-</button>
-                    <p>3</p>
-                    <button class="main_content_item_button_add">+</button>
-                </div>
-                
-                <div class="main_content_item_price">90 000</div>
+            <div>
+                Contacts
             </div>
-        </div>
+            <div>
+                <p>Creaters: <br>
+                    Iurii <br>
+                    Lera <br>
+                    Konstantin </p>
+            </div>
+        </footer>
     </body>
 </html>
