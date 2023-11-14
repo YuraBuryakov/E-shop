@@ -1,0 +1,90 @@
+.center_content{
+    box-sizing: border-box;
+    transition: all .2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 75vh;
+    background: linear-gradient(100deg, #5b859b 60%, #3a7999 30%);
+    padding-bottom: 70px;
+}
+
+.center_content form{
+    padding: 20px;
+    width: 700px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+}
+
+.center_content form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.center_content form .row .col{
+    flex: 1 1 250px;
+}
+
+.center_content form .row .col .tittle{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.center_content form .row .col .inputBox{
+    margin: 15px 0;
+}
+
+.center_content form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.center_content form .row .col .inputBox input{
+    width: 85%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    border-radius: 4px;
+}
+
+.center_content form .row .col .inputBox input:focus{
+    border: 1px solid #000;
+}
+
+.center_content form .row .col .flex{
+    display: flex;
+    gap: 15px;
+    width: 91%;
+}
+
+.center_content form .row .col .flex .inputBox{
+    margin-top: 5px;
+}
+
+.center_content form .row .col .inputBox img{
+    margin-top: 2px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.center_content form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #F0F0F0;
+    color: #3a7999;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.center_content form .submit-btn:hover{
+    background: #3a7999;
+    color: #F0F0F0;
+
+}
